@@ -1,0 +1,8 @@
+def find_deals_by_day_of_the_week(day_of_the_week)
+# each time this function is called there should be a series of eateries, a series of burgers and a series of deals
+# the function should be able to loop through the eateries
+# within the first loop it should also loop through all the deals
+# when looping through the deals it should check for the day of the week that the deal applies to
+# if the deal applies to the target day of the week, the function should add that deal to an array
+# after both loops finish, the function should return an empty array if there are no deals for the target day of the week of populated with deals if there are
+end
