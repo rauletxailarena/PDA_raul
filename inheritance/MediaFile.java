@@ -27,6 +27,4 @@ public class MediaFile{
   public String getAuthor(){
     return this.author;
   }
-
-
 }

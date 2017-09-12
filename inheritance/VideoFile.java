@@ -3,7 +3,7 @@ public class VideoFile extends MediaFile {
   private VideoCodec videoCodec;
   private VideoType videoType;
 
-  public VideoFile (double lenght, String title, String nationality, String author, VideoCodec audioCodec, VideoType audioType) {
+  public VideoFile (double lenght, String title, String nationality, String author, VideoCodec videoCodec, VideoType videoType) {
     super(lenght, title, nationality, author);
     this.videoType = videoType;
     this.videoCodec = videoCodec;
@@ -22,7 +22,7 @@ public class VideoFile extends MediaFile {
     System.out.println("Running length: " + super.getLenght());
     System.out.println("Author: " + super.getAuthor());
     System.out.println("nationality: " + super.getNationality());
-    System.out.println("Type: " + getVideoType());
-    System.out.println("Codec: " + getVideoCodec());
+    System.out.println("Type: " + this.getVideoType().toString());
+    System.out.println("Codec: " + this.getVideoCodec().toString());
   }
 }
