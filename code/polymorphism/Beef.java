@@ -1,4 +1,4 @@
-public class Beef implements Ingredient {
+public class Beef implements Edible {
 
   private float caloriesPerKilo;
   private float weightInKg;

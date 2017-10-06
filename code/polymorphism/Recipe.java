@@ -2,23 +2,23 @@ import java.util.ArrayList;
 
 public class Recipe{
 
-  private ArrayList<Ingredient> ingredientList;
+  private ArrayList<Edible> ingredientList;
 
   public Recipe(){
     this.ingredientList = new ArrayList<>();
   }
 
-  public ArrayList<Ingredient> getIngredientList(){
+  public ArrayList<Edible> getEdibleList(){
     return this.ingredientList;
   }
 
-  public void addIngredient(Ingredient ingredient){
+  public void addEdible(Edible ingredient){
     this.ingredientList.add(ingredient);
   }
 
   public float getTotalCalories(){
     float totalCalories = 0f;
-    for (Ingredient ingredient: ingredientList){
+    for (Edible ingredient: ingredientList){
       totalCalories += ingredient.getTotalCalories();
     }
     return totalCalories;

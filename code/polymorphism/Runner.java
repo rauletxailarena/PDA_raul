@@ -5,8 +5,8 @@ public class Runner{
     Recipe recipe = new Recipe();
     Carrot carrot = new Carrot(0.3f);
     Beef beef = new Beef(0.5f);
-    recipe.addIngredient(carrot);
-    recipe.addIngredient(beef);
+    recipe.addEdible(carrot);
+    recipe.addEdible(beef);
 
     System.out.println("Beef total calories: " + beef.getTotalCalories());
     System.out.println("Carrot total calories: " + carrot.getTotalCalories());

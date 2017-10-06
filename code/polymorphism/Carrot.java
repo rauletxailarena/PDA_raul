@@ -1,4 +1,4 @@
-public class Carrot implements Ingredient {
+public class Carrot implements Edible {
 
   private float caloriesPerKilo;
   private float weightInKg;

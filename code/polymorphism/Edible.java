@@ -1,4 +1,4 @@
-public interface Ingredient{
+public interface Edible{
   float getCaloriesPerKilo();
   float getWeightInKg();
   float getTotalCalories();
